@@ -1,0 +1,18 @@
+# PostgreSQL connection (existing)
+psycopg2-binary>=2.9.10
+
+# Type 1 - Web API framework
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.9.0
+
+# Type 1 - Document Parsers
+pypdf>=5.0.0
+python-docx>=1.1.0
+openpyxl>=3.1.5
+
+# Type 1 - AI Providers
+google-genai>=2.0.0
+openai>=1.50.0
+requests>=2.32.0

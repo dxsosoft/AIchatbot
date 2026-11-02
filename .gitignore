@@ -1,0 +1,29 @@
+# Environment variables & secrets
+.env
+*.env.local
+
+# Uploaded documents & user session data
+uploads/
+data/
+*.db
+*.sqlite3
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temporary files
+*.log
+scratch/
+db_inspection_report.json
+
+# Node/Frontend (if applicable)
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
